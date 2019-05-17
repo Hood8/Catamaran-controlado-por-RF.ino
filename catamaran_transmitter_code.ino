@@ -83,7 +83,7 @@ int envioPwm;        /*escala la variable valorAnalógico (0,1023 )a valores de 
 float tension = 0;   /*declara la variable para calcular el voltaje a través
                      del valor análogico recibido*/
 
-/* Conexión de los transccptores CC1101
+/* Conexión de los transceptores CC1101
  
  These examples are from the Electronics Cookbook by Simon Monk
  Connections (for an Arduino Uno)
