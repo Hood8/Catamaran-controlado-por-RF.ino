@@ -207,7 +207,7 @@ if ((xPosicion > 610) && (yPosicion > 610))
   
   ELECHOUSE_cc1101.SendData ((uint8_t *)dataPot, strlen(dataPot)); //funciona
  
-  delay(250);   /* hace una pausa para que el autoscroll en el 
+  /*delay(250);*/    /*hace una pausa para que el autoscroll en el 
                  Puerto de Serie no corra demasiado y se pueda leer
                  los datos con claridad*/
 }
