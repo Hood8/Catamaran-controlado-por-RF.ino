@@ -111,7 +111,8 @@ void loop()
     int len = ELECHOUSE_cc1101.ReceiveData(buffer);
     buffer[len] = '\0';
     Serial.println((char *) buffer);
-    //codigo jose start
+      
+ //código jose start
 
     // Si recibe 'a'  activa  pin 5 (avante babor)
         if(buffer[0]=='a'){
@@ -208,50 +209,50 @@ void loop()
         
         // Si recibe '2' activa el pin pwmBabor y el pin pwmEstribor 
         if(buffer[0]=='2'){ 
-        analogWrite(pwmBabor,129);    //Velocidad motor derecho 200 //
-        analogWrite(pwmEstribor,129); //Velocidad motor izquierdo 200 //
+        analogWrite(pwmBabor,129);    //Velocidad motor derecho 129 //
+        analogWrite(pwmEstribor,129); //Velocidad motor izquierdo 129 //
         } 
         
         // Si recibe '3' activa el pin pwmBabor y el pin pwmEstribor 
         if(buffer[0]=='3'){
-        analogWrite(pwmBabor,147);    //Velocidad motor derecho 200 //
-        analogWrite(pwmEstribor,147);//Velocidad motor izquierdo 200 //
+        analogWrite(pwmBabor,147);    //Velocidad motor derecho 147 //
+        analogWrite(pwmEstribor,147);//Velocidad motor izquierdo 147 //
         }
         
         // Si recibe '4' activa el pin pwmBabor y el pin pwmEstribor 
         if(buffer[0]=='4'){
-        analogWrite(pwmBabor,165);    //Velocidad motor derecho 200 //
-        analogWrite(pwmEstribor,165); //Velocidad motor izquierdo 200 //
+        analogWrite(pwmBabor,165);    //Velocidad motor derecho 165 //
+        analogWrite(pwmEstribor,165); //Velocidad motor izquierdo 165 //
         } 
         
         // Si recibe '5' activa el pin pwmBabor y el pin pwmEstribor 
         if(buffer[0]=='5'){
-        analogWrite(pwmBabor,183);  //Velocidad motor derecho 200 //
-        analogWrite(pwmEstribor,183); //Velocidad motor izquierdo 200 //
+        analogWrite(pwmBabor,183);  //Velocidad motor derecho 183 //
+        analogWrite(pwmEstribor,183); //Velocidad motor izquierdo 183 //
         }
        
         // Si recibe '6' activa el pin pwmBabor y el pin pwmEstribor 
         if(buffer[0]=='6'){
-        analogWrite(pwmBabor,201);   //Velocidad motor derecho 200 //
-        analogWrite(pwmEstribor,201);//Velocidad motor izquierdo 200 //
+        analogWrite(pwmBabor,201);   //Velocidad motor derecho 201 //
+        analogWrite(pwmEstribor,201);//Velocidad motor izquierdo 201 //
         }
          
         // Si recibe '7' activa el pin pwmBabor y el pin pwmEstribor 
         if(buffer[0]=='7'){
-        analogWrite(pwmBabor,219);  //Velocidad motor derecho 200 //
-        analogWrite(pwmEstribor,219); //Velocidad motor izquierdo 200 //
+        analogWrite(pwmBabor,219);  //Velocidad motor derecho 219 //
+        analogWrite(pwmEstribor,219); //Velocidad motor izquierdo 219 //
         } 
         
         // Si recibe '8' activa el pin pwmBabor y el pin pwmEstribor 
         if(buffer[0]=='8'){
-        analogWrite(pwmBabor,237);    //Velocidad motor derecho 200 //
-        analogWrite(pwmEstribor,237);//Velocidad motor izquierdo 200//
+        analogWrite(pwmBabor,237);    //Velocidad motor derecho 237 //
+        analogWrite(pwmEstribor,237);//Velocidad motor izquierdo 237 //
         }
         
         // Si recibe '9' activa el pin pwmBabor y el pin pwmEstribor 
         if(buffer[0]=='9'){
-        analogWrite(pwmBabor,255);    //Velocidad motor derecho 200 //
-        analogWrite(pwmEstribor,255); //Velocidad motor izquierdo 200//
+        analogWrite(pwmBabor,255);    //Velocidad motor derecho 255 //
+        analogWrite(pwmEstribor,255); //Velocidad motor izquierdo 255//
         }
         
      }     
